@@ -1,0 +1,36 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100nF,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,82.10312,-57.175781,90.0,bottom
+C2,100nF,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,58.49312,-56.460781,180.0,bottom
+C4,100nF,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,89.90312,-57.175781,90.0,bottom
+C5,100 nf 25V,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,113.62812,-43.495781,270.0,bottom
+C6,10µf 16V,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,111.30312,-43.495781,270.0,bottom
+C7,100nf,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,109.61312,-57.095781,90.0,bottom
+D1,PRG-LED,LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,53.27312,-53.440781,0.0,top
+D2,SMAJ40CA-13-F,D_SMA,59.20312,-62.660781,90.0,bottom
+D3,1N5819,D_1206_3216Metric_Pad1.42x1.75mm_HandSolder,58.52312,-52.870781,180.0,bottom
+GN1,OpenKNX BCU,NanoBCU_PinSocket_LowProfile,89.50312,-42.328281,90.0,top
+H1,243-131,243131,55.76312,-59.625781,-90.0,top
+H2,243-131,243131,55.76312,-65.385781,-90.0,top
+J0,KNX Connector,KNX_Connector,54.16312,-63.330781,0.0,top
+J1,I2C - CONNECTION,PinHeader_1x04_P2.54mm_Vertical,119.60712,-52.488781,180.0,top
+J2,Daugther (APP) PCB - Connection ,PinSocket_1x10_P2.54mm_Vertical_Adapted,99.81312,-38.620781,270.0,bottom
+J3,External  Connections - Terminal,"TerminalBlock_Phoenix_MPT-0,5-12-2.54_1x12_P2.54mm_Horizontal",131.25562,-53.470781,90.0,top
+J4,Conn_01x08,PinHeader_1x08_P1.27mm_Vertical,53.08312,-46.745781,0.0,top
+J5,Front PCB - Connection,PinHeader_2x04_P1.27mm_Vertical,104.37812,-43.310781,90.0,top
+J6,Debug / USB - Connection (OpenKNX Progger),JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal,52.94812,-46.740781,-90.0,top
+J8,PICO,RPi_Pico_and_W_SMD_TH_TP_USB_BOOTSEL_3V3,90.39312,-57.055781,90.0,top
+J9,Daugther (APP) PCB - Extended Connection ,PinHeader_1x08_P2.54mm_Vertical,77.01812,-38.645781,90.0,bottom
+J10,Conn_01x12,KEFA_KF2EDGR-2.54_1x12_P2.54mm_Horizontal,128.77312,-53.495781,90.0,top
+JP5,Debug / USB Jumper,PinHeader_1x03_P1.27mm_Vertical,53.69812,-39.295781,-90.0,top
+LGO1,LOGO,OpenKNX_Logo_07x05,64.07712,-41.488781,-90.0,top
+LGO2,LOGO,OpenKNX_Logo_07x05,62.416106,-44.595778,180.0,bottom
+R1,0Ohm - TXRX Jumper,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,91.92312,-57.060781,270.0,bottom
+R2,0Ohm - RXTX Jumper,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,80.24312,-57.060781,270.0,bottom
+R3,R100,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,58.52312,-49.020781,180.0,bottom
+R6,10K,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,101.53812,-57.095781,270.0,bottom
+SW1,Prg-Btn,SW_Push_1P1T_NO_CK_KMR2,58.19312,-51.540781,-90.0,top
+SW2,Bootsel-Btn,SW_Push_1P1T_NO_CK_KMR2,58.19312,-40.210781,90.0,top
+SW3,Resset-Btn,SW_Push_1P1T_NO_CK_KMR2,58.19312,-45.890781,-90.0,top
+U1,ADuM1201AR / ADum1250,SOIC-8_3.9x4.9mm_P1.27mm,85.98312,-57.040781,270.0,bottom
+U2,LM2937IMP-3.3 / 5.0,SOT-223-3_TabPin2,119.27812,-42.888781,90.0,bottom
+U3,W25Q128JVSIQ,SOIC-8_5.23x5.23mm_P1.27mm,105.56312,-57.095781,90.0,bottom

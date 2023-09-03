@@ -1,0 +1,10 @@
+fp-lib-table
+fp-info-cache
+.DS_Store
+.DS_Store
+*-backups
+#auto_saved_files#
+_autosave-rppicoknx.kicad_pcb
+~rppicoknx.kicad_sch.lck
+board2pdf.config.ini
+~OpenKNX-PiPico-PicoW_REG2.kicad_pcb.lck
