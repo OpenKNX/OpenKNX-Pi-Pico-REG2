@@ -9,8 +9,8 @@
 	(paper "A5")
 	(title_block
 		(title "Raspberry Pi Pico / Pico W - KNX")
-		(date "02.02.2023")
-		(rev "1.0a")
+		(date "06.11.2024")
+		(rev "1.0b")
 		(company "OpenKNX")
 		(comment 1 "Erkan Çolak")
 	)
