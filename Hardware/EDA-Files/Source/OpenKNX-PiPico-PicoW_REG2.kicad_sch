@@ -9474,7 +9474,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 141.097) (xy 111.76 152.146)
+			(xy 127 140.335) (xy 127 151.384)
 		)
 		(stroke
 			(width 0)
@@ -10023,7 +10023,7 @@
 	)
 	(wire
 		(pts
-			(xy 112.268 141.097) (xy 111.76 141.097)
+			(xy 127.508 140.335) (xy 127 140.335)
 		)
 		(stroke
 			(width 0)
@@ -10818,7 +10818,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 162.306) (xy 111.76 168.402)
+			(xy 127 161.544) (xy 127 167.64)
 		)
 		(stroke
 			(width 0)
@@ -11138,6 +11138,16 @@
 			(type default)
 		)
 		(uuid "7d2f8a57-9e02-4eda-95a5-2a02693193d2")
+	)
+	(wire
+		(pts
+			(xy 101.6 152.4) (xy 101.6 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3dc7f5-21fe-4555-bab7-b67f5aff6daf")
 	)
 	(wire
 		(pts
@@ -12462,6 +12472,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 140.97) (xy 101.6 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1aa0c8-dc0a-4d28-afca-b5767dfc66ba")
+	)
+	(wire
+		(pts
 			(xy 45.466 260.858) (xy 51.562 260.858)
 		)
 		(stroke
@@ -12571,6 +12591,16 @@
 			(type default)
 		)
 		(uuid "fe8fa6a0-f6a5-43cb-9563-b942cf313180")
+	)
+	(wire
+		(pts
+			(xy 101.6 161.29) (xy 101.6 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff18d33c-8565-4964-bc33-31e0b4a8c39d")
 	)
 	(polyline
 		(pts
@@ -13955,7 +13985,7 @@
 	)
 	(global_label "RESET"
 		(shape input)
-		(at 112.268 141.097 0)
+		(at 127.508 140.335 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13965,7 +13995,7 @@
 		)
 		(uuid "17b52009-9e02-42ac-9767-302b8d093908")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.9983 141.097 0)
+			(at 136.2383 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15159,6 +15189,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GP3"
+		(shape input)
+		(at 101.6 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad47aaca-c697-4e46-a1c5-f1bd706f1bf3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.3347 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -16798,6 +16850,73 @@
 			(project "rppicoknx"
 				(path "/e6bf8ed7-52c1-4dc1-b33c-46acf89c3c1b"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_11")
+		(lib_id "power:GND")
+		(at 101.6 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28424f89-da31-494b-acd8-9cef6304fbb1")
+		(property "Reference" "#PWR03"
+			(at 101.6 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 172.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e11c263-6ff7-4e55-a991-c801e166c243")
+		)
+		(instances
+			(project "OpenKNX-PiPico-PicoW_REG2"
+				(path "/e6bf8ed7-52c1-4dc1-b33c-46acf89c3c1b"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -18450,6 +18569,76 @@
 			(project "rppicoknx"
 				(path "/e6bf8ed7-52c1-4dc1-b33c-46acf89c3c1b"
 					(reference "J0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rppicoknx:LED_Small")
+		(at 101.6 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "744a8497-2f23-44a7-8d2c-4d546863d4d1")
+		(property "Reference" "D4"
+			(at 104.14 148.6534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Info-LED"
+			(at 104.14 151.1934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rppicoknx:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 101.6 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f8cadbf-e670-4bc9-bd5e-86c785bdd905")
+		)
+		(pin "2"
+			(uuid "e9dee41b-49dc-4e40-a602-569a578626f9")
+		)
+		(instances
+			(project "OpenKNX-PiPico-PicoW_REG2"
+				(path "/e6bf8ed7-52c1-4dc1-b33c-46acf89c3c1b"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -20544,7 +20733,7 @@
 	)
 	(symbol
 		(lib_id "rppicoknx:SW_Push")
-		(at 111.76 157.226 90)
+		(at 127 156.464 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20553,7 +20742,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5c6fd66-118a-48f4-96b5-b74148024822")
 		(property "Reference" "SW3"
-			(at 104.14 155.956 90)
+			(at 119.38 155.194 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20562,7 +20751,7 @@
 			)
 		)
 		(property "Value" "Resset-Btn"
-			(at 97.028 158.496 90)
+			(at 112.268 157.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20571,7 +20760,7 @@
 			)
 		)
 		(property "Footprint" "rppicoknx:SW_Push_1P1T_NO_CK_KMR2"
-			(at 106.68 157.226 0)
+			(at 121.92 156.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20580,7 +20769,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 157.226 0)
+			(at 121.92 156.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20589,7 +20778,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 157.226 0)
+			(at 127 156.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21532,6 +21721,73 @@
 			(project "rppicoknx"
 				(path "/e6bf8ed7-52c1-4dc1-b33c-46acf89c3c1b"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rppicoknx:R")
+		(at 101.6 157.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3accf1b-94e8-4847-84b7-fa45628aa62b")
+		(property "Reference" "R4"
+			(at 99.568 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R100"
+			(at 101.6 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rppicoknx:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 103.378 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edeb484e-6e9e-4a8a-be65-d224fa86b6bc")
+		)
+		(pin "2"
+			(uuid "dc625008-f107-4bd0-a965-b73c05075844")
+		)
+		(instances
+			(project "OpenKNX-PiPico-PicoW_REG2"
+				(path "/e6bf8ed7-52c1-4dc1-b33c-46acf89c3c1b"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -22494,7 +22750,7 @@
 	(symbol
 		(lib_name "GND_11")
 		(lib_id "power:GND")
-		(at 111.76 168.402 0)
+		(at 127 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22503,7 +22759,7 @@
 		(fields_autoplaced yes)
 		(uuid "e65ea57e-9b1f-4b64-9d60-ea2e0fa6613e")
 		(property "Reference" "#PWR0104"
-			(at 111.76 174.752 0)
+			(at 127 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22512,7 +22768,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 173.228 0)
+			(at 127 172.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22520,7 +22776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 168.402 0)
+			(at 127 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22529,7 +22785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 168.402 0)
+			(at 127 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22538,7 +22794,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 168.402 0)
+			(at 127 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
