@@ -7621,7 +7621,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D1"
-			(at -0.0225 0 270)
+			(at -0.0225 0 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e6d6acb3-4b12-4d3b-9585-ea6e4056cf57")
@@ -7633,7 +7633,7 @@
 			)
 		)
 		(property "Value" "PRG"
-			(at 2.304 -0.280781 270)
+			(at 2.304 -0.280781 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "8e7e728b-8d0e-4be9-bba2-c359fa54269e")
@@ -8265,10 +8265,10 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D4"
-			(at -0.0225 0 270)
+			(at -0.0225 0 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "e6d6acb3-4b12-4d3b-9585-ea6e4056cf57")
+			(uuid "ed6e2b1c-47d0-43ff-a9c2-9bb79e89b5e0")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8277,10 +8277,10 @@
 			)
 		)
 		(property "Value" "INFO"
-			(at 2.304 0.18 270)
+			(at 2.304 0.18 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "8e7e728b-8d0e-4be9-bba2-c359fa54269e")
+			(uuid "e9bc20e9-c0b2-40af-ba2a-e0ea29b65ea1")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -8338,7 +8338,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d9e333b6-1d69-431a-aa7e-ba59e0fc7af9")
+			(uuid "dda6a23e-fd18-44de-b8bb-11ecc70cedb6")
 		)
 		(fp_line
 			(start -1.86 0.96)
@@ -8348,7 +8348,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "055937aa-d247-4d73-93dd-86842cdc3bf1")
+			(uuid "49fcf4d1-d104-471f-bc18-ae4a57981213")
 		)
 		(fp_line
 			(start 1 -0.96)
@@ -8358,7 +8358,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8a5c05ed-c846-4ea2-acd8-d5dafd376904")
+			(uuid "1b815e32-28a9-4a3d-a357-edac900f9e2d")
 		)
 		(fp_line
 			(start -1.85 -0.95)
@@ -8368,7 +8368,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f4b7b37b-7fa9-4eac-acec-9434d9363d99")
+			(uuid "86cc3309-6b4a-42b9-8c43-6ceb15b6d0a3")
 		)
 		(fp_line
 			(start -1.85 0.95)
@@ -8378,7 +8378,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "620c69ad-44ca-48a1-80e2-f2aa43e8a1ad")
+			(uuid "5c243e08-0d9c-459d-82fd-98f75431a52d")
 		)
 		(fp_line
 			(start 1.85 -0.95)
@@ -8388,7 +8388,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "2aaab9ac-140f-49d2-875f-185e0a0d71f5")
+			(uuid "d29c305d-cb1c-4859-93aa-1191ed2e115c")
 		)
 		(fp_line
 			(start 1.85 0.95)
@@ -8398,7 +8398,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "87a80d92-4039-4da4-ac79-05578eeaaab2")
+			(uuid "544af3aa-bcb5-4c11-a014-72dc9d658c72")
 		)
 		(fp_line
 			(start -1 -0.3)
@@ -8408,7 +8408,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0d629d77-9e99-404a-9870-af1b2321de11")
+			(uuid "05cb0d8d-0a5c-4137-a25f-437aee0b6b2e")
 		)
 		(fp_line
 			(start -1 0.6)
@@ -8418,7 +8418,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a9578d95-e897-4602-bce3-46fa66fdb50b")
+			(uuid "6f6cd65d-2d34-4425-86d7-731df99a25fe")
 		)
 		(fp_line
 			(start -0.7 -0.6)
@@ -8428,7 +8428,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "20fc9756-0373-4df7-983b-32ff5f8e2425")
+			(uuid "7a18801a-9143-4639-98c8-2f2dd37b186a")
 		)
 		(fp_line
 			(start 1 -0.6)
@@ -8438,7 +8438,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2c847747-143d-4454-a6ab-e50d46ae4c1e")
+			(uuid "94656671-320c-4974-a1f6-346c20ed6442")
 		)
 		(fp_line
 			(start 1 0.6)
@@ -8448,13 +8448,13 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5bbdcd0a-1e0a-434b-9764-54e1f18fe94b")
+			(uuid "805aa3b9-fb00-4984-9871-e07e39e89de0")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f5045078-fd21-4818-9a7a-a29297054cf5")
+			(uuid "c787c046-4770-4c62-86bd-54c473f4ef0a")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8470,7 +8470,7 @@
 			(net 20 "GP3")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "8cc09dfd-32bc-4f97-8097-c9c7f172ba5a")
+			(uuid "c0c84bee-a5b1-4a80-ad91-6de684708ce1")
 		)
 		(pad "2" smd roundrect
 			(at 1.025 0)
@@ -8480,7 +8480,7 @@
 			(net 56 "Net-(D4-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "008e1778-0bcf-46dd-9229-b4f9e343d934")
+			(uuid "b6c31511-e3c9-45ae-b69b-f6bd3fe83c46")
 		)
 		(model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.wrl"
 			(offset
@@ -18133,7 +18133,7 @@
 			(at 2.77 0 -90)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "c45a1a8a-b35b-4b1b-94df-b8f6ead446a7")
+			(uuid "615a68d4-e6e6-4577-8854-45b897008c1c")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -18146,7 +18146,7 @@
 			(at 0 -1.82 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c46b77ed-c599-4449-a47e-0c35c8a623d9")
+			(uuid "12a17cee-1fb0-47cd-a9ae-ed384eed594b")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -18204,7 +18204,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "2d46c9ad-7b59-4b69-90fa-0c4784ee9c20")
+			(uuid "eea03464-d2fa-4b31-9bb2-2d3193f6884c")
 		)
 		(fp_line
 			(start -0.727064 0.91)
@@ -18214,7 +18214,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "a411c538-ffe7-4d36-9bb1-670e3a0e8f09")
+			(uuid "804da055-8cd6-4ee3-ad6b-e7e5239302b8")
 		)
 		(fp_line
 			(start -2.45 -1.12)
@@ -18224,7 +18224,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "c93c8165-3f53-412c-aab4-ac9556f39cbc")
+			(uuid "fd1c4055-c239-4c9b-9347-ca2b152c4f67")
 		)
 		(fp_line
 			(start -2.45 1.12)
@@ -18234,7 +18234,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "918fa2b6-956a-4f48-89e1-9fe970d7f3f2")
+			(uuid "c42524a6-5dd4-4b4c-8ddc-636fe8fd4808")
 		)
 		(fp_line
 			(start 2.45 -1.12)
@@ -18244,7 +18244,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "38e9702b-56f6-43a1-be01-b40b56dc3b89")
+			(uuid "06d3f1ca-082d-4964-b510-38e634c3d4ca")
 		)
 		(fp_line
 			(start 2.45 1.12)
@@ -18254,7 +18254,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "320cf685-fdc5-4d96-b93a-67abf96a4183")
+			(uuid "3fed77e2-bb38-40bd-aa45-9ed5371354b4")
 		)
 		(fp_line
 			(start -1.6 -0.8)
@@ -18264,7 +18264,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "9964c26c-62c7-4793-a68e-7bc95a395903")
+			(uuid "b2722678-0871-4fce-82aa-d1b1fd30107d")
 		)
 		(fp_line
 			(start -1.6 0.8)
@@ -18274,7 +18274,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "c94b1d9c-7571-4d4d-a474-8995d7e72141")
+			(uuid "a591e29a-9e17-412b-a6dd-ba281da683a2")
 		)
 		(fp_line
 			(start 1.6 -0.8)
@@ -18284,7 +18284,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "95216654-0fab-44a4-8449-7fa367965f53")
+			(uuid "a89dd929-fb5f-4b8e-ac96-0241e7720ea8")
 		)
 		(fp_line
 			(start 1.6 0.8)
@@ -18294,13 +18294,13 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "379a867f-2e89-47d5-9c37-1c6edfbf2af3")
+			(uuid "89c3697a-26c7-4ae6-868e-fceca4f7b4d2")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ba8d25a2-d07e-4c3d-bd5a-9ef6ecb086ed")
+			(uuid "d26e970f-e2b3-4053-86a5-427f1dc02f41")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -18316,7 +18316,7 @@
 			(roundrect_rratio 0.1923076923)
 			(net 53 "GND")
 			(pintype "passive")
-			(uuid "0ff9e1d3-bab0-4bb3-89ab-f00b2309532b")
+			(uuid "f17b8679-273f-4fdf-8e87-5dca707fe6d2")
 		)
 		(pad "2" smd roundrect
 			(at 1.55 0 180)
@@ -18325,7 +18325,7 @@
 			(roundrect_rratio 0.1923076923)
 			(net 56 "Net-(D4-A)")
 			(pintype "passive")
-			(uuid "34fe11db-40a0-4f8b-99c0-bfd2e9038876")
+			(uuid "69f658ba-fa73-4538-8c2a-52067ecec2ef")
 		)
 		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
 			(offset
@@ -20081,7 +20081,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "OpenKNX Pico V1.0a\nREG2-Base\nErkan Çolak © 2023"
+	(gr_text "OpenKNX Pico V1.0b\nREG2-Base\nErkan Çolak © 2023"
 		(locked yes)
 		(at 66.48712 44.638781 180)
 		(layer "B.SilkS" knockout)
@@ -20304,7 +20304,7 @@
 			)
 		)
 	)
-	(gr_text "OpenKNX Pico V1.0a\nREG2-Base\nErkan Çolak © 2023"
+	(gr_text "OpenKNX Pico V1.0b\nREG2-Base\nErkan Çolak © 2023"
 		(locked yes)
 		(at 66.43712 42.878781 0)
 		(layer "F.SilkS" knockout)
