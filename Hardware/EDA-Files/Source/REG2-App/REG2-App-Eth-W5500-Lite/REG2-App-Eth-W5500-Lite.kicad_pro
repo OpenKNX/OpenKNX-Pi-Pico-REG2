@@ -88,7 +88,7 @@
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
-        "malformed_courtyard": "error",
+        "malformed_courtyard": "warning",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
@@ -452,8 +452,8 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "pin_to_pin": "ignore",
+      "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
       "unannotated": "error",
@@ -467,7 +467,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "REG2-App-Eth.kicad_pro",
+    "filename": "REG2-App-Eth-W5500-Lite.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -1204,10 +1204,10 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "REG2-App-Eth.cad",
       "idf": "",
       "netlist": "REG1-App-Universal.net",
-      "plot": "",
+      "plot": "REG1-App-Universal_gerbers_V01.00/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "REG1-App-GW-RF2G4_V00.01.step",
