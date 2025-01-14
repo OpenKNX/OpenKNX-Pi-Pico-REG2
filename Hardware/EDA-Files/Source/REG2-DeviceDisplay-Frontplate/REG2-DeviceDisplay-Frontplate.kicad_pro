@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.5,
+          "height": 1.7,
+          "width": 2.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "padstack|102626497|57386497|f2fc7fd3-1096-4861-a6da-d2b902dbfb3f|00000000-0000-0000-0000-000000000000",
+        "padstack|105313503|60073503|8be9ec2c-5063-4380-abfd-f1e88851ed31|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -322,7 +325,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "power_pin_not_driven|1473200|965200|6c705bec-dcd6-4433-b534-7f6040a1e355|00000000-0000-0000-0000-000000000000|/3e8d4f55-921f-4c65-aaee-667b6c0c0525|/3e8d4f55-921f-4c65-aaee-667b6c0c0525|",
+      "power_pin_not_driven|1727200|965200|01a24d7e-82b6-4c88-b4c3-6f4376bfdd61|00000000-0000-0000-0000-000000000000|/3e8d4f55-921f-4c65-aaee-667b6c0c0525|/3e8d4f55-921f-4c65-aaee-667b6c0c0525|",
+      "power_pin_not_driven|1739900|1054100|6c705bec-dcd6-4433-b534-7f6040a1e355|00000000-0000-0000-0000-000000000000|/3e8d4f55-921f-4c65-aaee-667b6c0c0525|/3e8d4f55-921f-4c65-aaee-667b6c0c0525|",
+      "power_pin_not_driven|1993900|1054100|01a24d7e-82b6-4c88-b4c3-6f4376bfdd61|00000000-0000-0000-0000-000000000000|/3e8d4f55-921f-4c65-aaee-667b6c0c0525|/3e8d4f55-921f-4c65-aaee-667b6c0c0525|"
+    ],
     "meta": {
       "version": 0
     },
@@ -511,7 +519,7 @@
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
-      "lib_symbol_issues": "warning",
+      "lib_symbol_issues": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -522,7 +530,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -537,7 +545,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Frontplate.kicad_pro",
+    "filename": "REG2-DeviceDisplay-Frontplate.kicad_pro",
     "version": 1
   },
   "net_settings": {
