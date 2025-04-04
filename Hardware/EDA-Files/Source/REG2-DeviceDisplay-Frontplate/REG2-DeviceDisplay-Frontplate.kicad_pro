@@ -583,7 +583,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "REG2-DeviceDisplay-Frontplate.step",
       "svg": "",
       "vrml": ""
     },

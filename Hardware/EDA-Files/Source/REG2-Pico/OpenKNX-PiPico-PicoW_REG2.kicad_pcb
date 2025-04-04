@@ -8,7 +8,7 @@
 	)
 	(paper "A5")
 	(title_block
-		(title "Raspberry Pi Pico / Pico W - KNX")
+		(title "REG2 - Pi Pico / Pico W / ESP Pico - KNX")
 		(date "06.11.2024")
 		(rev "1.0b")
 		(company "OpenKNX")
@@ -6045,7 +6045,7 @@
 				)
 			)
 		)
-		(fp_text user "Raspberry Pi Pico | Pi Pico 2 | Pico W"
+		(fp_text user "Pi Pico | Pi Pico 2 | Pico W | ESP Pico"
 			(at -5.694219 -0.01312 0)
 			(unlocked yes)
 			(layer "F.SilkS")
